@@ -7,28 +7,71 @@
 
 /* nav */
 
-nav {
-    background-color: rgb(19, 18, 18);
-    padding: 3%;
-}
+    nav {
+        background-color: rgb(19, 18, 18);
+        padding: 3%;
+    }
+
+    ul.navegaçao {
+        font-size: 22px;
+        text-align: right;
+        list-style-type: none;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    a:link {text-decoration: white; color: white; display: inline-block;}
+    a:visited {color: rgba(139, 133, 133, 0.712)}
+    a:hover {color: orange}
+    a:active {color: white}
+
+/* end nav */
 
 /* header */
 
-header {
-    background-color: rgb(126, 55, 8);
-    padding: 3%;
-}
+    header {
+        background-color: rgb(233, 225, 220);
+        padding: 3%;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+
+    img.perfil2 {
+        position: absolute;
+        top: 29px;
+    }
+
+/* end header */
 
 /* main */
 
-main {
-    background-color: rgb(163, 92, 26);
-    padding: 3%;
-}
+    main {
+        
+        background-color: rgb(163, 92, 26);
+        padding: 3%;
+    }
+
+    img.Pintando7 {
+        position: fixed;
+        right: 29px;
+        margin-right: 20px; 
+    }
+
+    img.Batalha7 {
+        position: fixed;
+        left: 29px;
+    }
+
+/* end main */
 
 /* footer */
 
-footer {
-    background-color: rgb(39, 36, 35);
-    padding: 3%;
-}
+    footer {
+        background-color: rgb(39, 36, 35);
+        padding: 3%;
+    }
+
+    ul {
+        color: white;
+        list-style-type: none;
+    }
+
+/* end footer */
